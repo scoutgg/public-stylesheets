@@ -1,3 +1,7 @@
+.challenges.ft-tournaments {
+  display: flex !important;
+}
+
 html {
   --primary-color: #2a2a2a;
   --primary-color-hue: #484848;
