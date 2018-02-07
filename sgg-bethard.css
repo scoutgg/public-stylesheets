@@ -1,8 +1,4 @@
-.sportsbook-scout .challenges.ft-tournaments {
-  display: flex !important;
-}
-
-html {
+.sportsbook-scout {
   --primary-color: #2a2a2a;
   --primary-color-hue: #484848;
   --primary-color-subtle: #7B7B7B;
@@ -59,8 +55,6 @@ html {
   --participants-active-background-color: var(--accent-color);
   --participants-active-color-hover: var(--accent-text);
   --participants-active-background-color-hover: var(--accent-color);
-  
-  font-size: 1em !important;
   --tournaments-posters-display: none;
   --sport-selector-icon-width-mobile: 1.8em;
   --sport-selector-icon-height-mobile: 1.8em;
@@ -68,4 +62,19 @@ html {
   --window-top-reserved: 9em;
   --team-creation-helpers-default-background-color: var(--accent-color);
   --team-creation-helpers-default-color: var(--accent-text);
+
+  --count-color-active: var(--accent-text);
+  --count-background-active: var(--accent-color);
+
+  font-size: 1em !important;
+  margin-top: 5px;
+}
+@media screen and (max-width: 420px) {
+  .sportsbook-scout {
+    margin-top: 20px
+  }
+}
+
+.sportsbook-scout .challenges.ft-tournaments {
+  display: flex !important;
 }
