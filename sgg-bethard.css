@@ -71,6 +71,7 @@
   --dashboard-tournament-selector-height: 20em;
   --field-player-line-height: 1em;
   --score-summary-rank-text: var(--primary-text);
+  --player-profile-price-changes-accordion-width: 160px;
   font-size: 1em !important;
   margin-top: 5px;
 }
@@ -107,7 +108,7 @@ ft-modal .box {
 }
 .sportsbook-scout header,
 ft-modal header {
-  background: unset;
+  background: unset !important;
   width: auto;
   height: auto;
   top: unset;
@@ -119,14 +120,17 @@ ft-modal header {
   display: flex !important;
 }
 .sportsbook-scout .row,
-ft-modal .row, {
+ft-modal .row,
+ft-modal .ft-player-profile .row {
   margin-left: unset;
   margin-right: unset;
 }
 .sportsbook-scout .row:after,
 .sportsbook-scout .row:before,
 ft-modal .row:after,
-ft-modal .row:before {
+ft-modal .row:before,
+ft-modal .ft-player-profile .row:after,
+ft-modal .ft-player-profile .row:before {
   content: unset;
 }
 .sportsbook-scout .overview,
