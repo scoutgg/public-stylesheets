@@ -97,23 +97,33 @@
   box-sizing: border-box;
 }
 .sportsbook-scout div.box,
-.sportsbook-scout .box {
+.sportsbook-scout .box,
+ft-modal div.box,
+ft-modal .box {
   background: unset;
 }
-.sportsbook-scout header {
+.sportsbook-scout header,
+ft-modal header {
   background: unset;
   width: auto;
 }
 .sportsbook-scout .challenges.ft-tournaments {
   display: flex !important;
 }
-.sportsbook-scout .row {
+.sportsbook-scout .row,
+ft-modal .row, {
   margin-left: unset;
   margin-right: unset;
 }
 .sportsbook-scout .row:after,
-.sportsbook-scout .row:before {
+.sportsbook-scout .row:before,
+ft-modal .row:after,
+ft-modal .row:before {
   content: unset;
+}
+.sportsbook-scout .overview,
+ft-modal .overview {
+  display: unset !important;
 }
 
 /* Country flags overrides due to Firefox bleed through */
