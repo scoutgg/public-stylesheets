@@ -69,11 +69,14 @@
   --tournaments-categories-bubble-color-active: var(--accent-color);
   --field-section-title-color: var(--primary-text);
   --dashboard-tournament-selector-height: 20em;
+  --tournament-selector-height: 22em;
+  --field-player-line-height: 1em;
+  --score-summary-rank-text: var(--primary-text);
   font-size: 1em !important;
   margin-top: 5px;
 }
 
-/*General and specific component overrides due to Firefox bleed through*/
+/* General and specific component overrides due to Firefox bleed through */
 .sportsbook-scout .ft-dashboard .ft-tournament-selector,
 .sportsbook-scout input[type="search"],
 .sportsbook-scout .ft-tournament-selector ft-game-card,
@@ -95,7 +98,7 @@
   content: unset;
 }
 
-/*Country flags overrides due to Firefox bleed through*/
+/* Country flags overrides due to Firefox bleed through */
 .sportsbook-scout .id, .sportsbook-scout .gw {
   background: unset;
   background-size: unset;
