@@ -62,15 +62,32 @@
   --window-top-reserved: 9em;
   --team-creation-helpers-default-background-color: var(--accent-color);
   --team-creation-helpers-default-color: var(--accent-text);
-
   --count-color-active: var(--accent-text);
   --count-background-active: var(--accent-color);
   --tournaments-categories-bubble-text-active: var(--accent-text);
   --tournaments-categories-bubble-text-hover: var(--accent-text);
   --tournaments-categories-bubble-color-active: var(--accent-color);
-
   font-size: 1em !important;
   margin-top: 5px;
+}
+
+.sportsbook-scout input[type="search"] {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.sportsbook-scout .challenges.ft-tournaments {
+  display: flex !important;
+}
+.sportsbook-scout ft-calendar input.ft-calendar {
+  box-sizing: border-box
+}
+
+/*Country flags bleed through fixes for Firefox*/
+.sportsbook-scout .id, .sportsbook-scout .gw {
+  background: unset;
+  background-size: unset;
+  width: unset;
+  height: unset;
 }
 @media screen and (max-width: 992px) {
   .sportsbook-scout {
@@ -81,7 +98,4 @@
   .sportsbook-scout {
     margin-top: 70px;
   }
-}
-.sportsbook-scout .challenges.ft-tournaments {
-  display: flex !important;
 }
