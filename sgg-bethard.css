@@ -86,8 +86,8 @@
 .sportsbook-scout .id, .sportsbook-scout .gw {
   background: unset;
   background-size: unset;
-  width: unset;
-  height: unset;
+  width: inherit;
+  height: inherit;
 }
 @media screen and (max-width: 992px) {
   .sportsbook-scout {
