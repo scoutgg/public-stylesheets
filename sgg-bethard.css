@@ -67,26 +67,35 @@
   --tournaments-categories-bubble-text-active: var(--accent-text);
   --tournaments-categories-bubble-text-hover: var(--accent-text);
   --tournaments-categories-bubble-color-active: var(--accent-color);
+  --field-section-title-color: var(--primary-text);
+  --dashboard-tournament-selector-height: 20em;
   font-size: 1em !important;
   margin-top: 5px;
 }
 
-.sportsbook-scout input[type="search"] {
+/*General and specific component overrides due to Firefox bleed through*/
+.sportsbook-scout .ft-dashboard .ft-tournament-selector,
+.sportsbook-scout input[type="search"],
+.sportsbook-scout .ft-tournament-selector ft-game-card,
+.sportsbook-scout .ft-tournament-selector ft-game-card *,
+.sportsbook-scout ft-calendar input.ft-calendar,
+.sportsbook-scout ft-team-manager .team-manager,
+.sportsbook-scout ft-team-manager .team-manager * {
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
 }
 .sportsbook-scout .challenges.ft-tournaments {
   display: flex !important;
 }
-.sportsbook-scout ft-calendar input.ft-calendar {
-  box-sizing: border-box;
+.sportsbook-scout .row {
+  margin-left: unset;
+  margin-right: unset;
 }
-.sportsbook-scout ft-team-manager .team-manager,
-.sportsbook-scout ft-team-manager .team-manager *{
-  box-sizing: border-box;
+.sportsbook-scout .row:after,
+.sportsbook-scout .row:before {
+  content: unset;
 }
 
-/*Country flags bleed through fixes for Firefox*/
+/*Country flags overrides due to Firefox bleed through*/
 .sportsbook-scout .id, .sportsbook-scout .gw {
   background: unset;
   background-size: unset;
