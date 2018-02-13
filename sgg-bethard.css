@@ -74,6 +74,17 @@
   font-size: 1em !important;
   margin-top: 5px;
 }
+@media screen and (max-width: 992px) {
+  .sportsbook-scout {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sportsbook-scout {
+    margin-top: 70px;
+    --dashboard-tournament-selector-height: 22em;
+  }
+}
 
 /* General and specific component overrides due to Firefox bleed through */
 .sportsbook-scout .ft-dashboard .ft-tournament-selector,
@@ -84,6 +95,14 @@
 .sportsbook-scout ft-team-manager .team-manager,
 .sportsbook-scout ft-team-manager .team-manager * {
   box-sizing: border-box;
+}
+.sportsbook-scout div.box,
+.sportsbook-scout .box {
+  background: unset;
+}
+.sportsbook-scout header {
+  background: unset;
+  width: auto;
 }
 .sportsbook-scout .challenges.ft-tournaments {
   display: flex !important;
@@ -103,15 +122,4 @@
   background-size: unset;
   width: auto;
   height: auto;
-}
-@media screen and (max-width: 992px) {
-  .sportsbook-scout {
-    margin-top: 70px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .sportsbook-scout {
-    margin-top: 70px;
-    --dashboard-tournament-selector-height: 22em;
-  }
 }
