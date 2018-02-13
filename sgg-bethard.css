@@ -79,15 +79,15 @@
   display: flex !important;
 }
 .sportsbook-scout ft-calendar input.ft-calendar {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 /*Country flags bleed through fixes for Firefox*/
 .sportsbook-scout .id, .sportsbook-scout .gw {
   background: unset;
   background-size: unset;
-  width: inherit;
-  height: inherit;
+  width: auto;
+  height: auto;
 }
 @media screen and (max-width: 992px) {
   .sportsbook-scout {
