@@ -81,6 +81,10 @@
 .sportsbook-scout ft-calendar input.ft-calendar {
   box-sizing: border-box;
 }
+.sportsbook-scout ft-team-manager .team-manager,
+.sportsbook-scout ft-team-manager .team-manager *{
+  box-sizing: border-box;
+}
 
 /*Country flags bleed through fixes for Firefox*/
 .sportsbook-scout .id, .sportsbook-scout .gw {
