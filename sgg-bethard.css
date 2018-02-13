@@ -69,7 +69,6 @@
   --tournaments-categories-bubble-color-active: var(--accent-color);
   --field-section-title-color: var(--primary-text);
   --dashboard-tournament-selector-height: 20em;
-  --tournament-selector-height: 22em;
   --field-player-line-height: 1em;
   --score-summary-rank-text: var(--primary-text);
   font-size: 1em !important;
@@ -113,5 +112,6 @@
 @media screen and (max-width: 420px) {
   .sportsbook-scout {
     margin-top: 70px;
+    --dashboard-tournament-selector-height: 22em;
   }
 }
