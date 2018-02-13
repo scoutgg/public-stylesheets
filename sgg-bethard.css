@@ -65,16 +65,23 @@
 
   --count-color-active: var(--accent-text);
   --count-background-active: var(--accent-color);
+  --tournaments-categories-bubble-text-active: var(--accent-text);
+  --tournaments-categories-bubble-text-hover: var(--accent-text);
+  --tournaments-categories-bubble-color-active: var(--accent-color);
 
   font-size: 1em !important;
   margin-top: 5px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 992px) {
   .sportsbook-scout {
-    margin-top: 20px
+    margin-top: 70px;
   }
 }
-
+@media screen and (max-width: 420px) {
+  .sportsbook-scout {
+    margin-top: 70px;
+  }
+}
 .sportsbook-scout .challenges.ft-tournaments {
   display: flex !important;
 }
