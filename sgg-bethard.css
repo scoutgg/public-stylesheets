@@ -71,13 +71,15 @@
   --dashboard-tournament-selector-height: 20em;
   --field-player-line-height: 1em;
   --score-summary-rank-text: var(--primary-text);
-  --modal-overlay-padding-desktop: 7.5em 1em 1em;
   font-size: 1em !important;
   margin-top: 5px;
 }
 @media screen and (max-width: 992px) {
   .sportsbook-scout {
     margin-top: 70px;
+  }
+  ft-modal {
+    --window-top-reserved: 9em;
   }
 }
 @media screen and (max-width: 420px) {
@@ -130,6 +132,20 @@ ft-modal .row:before {
 .sportsbook-scout .overview,
 ft-modal .overview {
   display: unset !important;
+}
+ft-modal {
+  --modal-overlay-padding-desktop: 7.5em 1em 1em;
+  --window-top-reserved: 9em;
+}
+ft-modal .modal-overlay {
+  position: unset;
+  top: unset;
+  right: unset;
+  left: unset;
+  bottom: unset;
+  background: unset;
+  padding: unset;
+  z-index: unset;
 }
 
 /* Country flags overrides due to Firefox bleed through */
