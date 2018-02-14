@@ -72,8 +72,8 @@
   --field-player-line-height: 1em;
   --score-summary-rank-text: var(--primary-text);
   --player-profile-price-changes-accordion-width: 160px;
-  font-size: 1em !important;
-  margin-top: 5px;
+  --seasons-pane-active-bubble-color: var(--accent-color);
+  --seasons-pane-active-bubble-text: var(--accent-text);
 }
 @media screen and (max-width: 992px) {
   .sportsbook-scout {
@@ -91,6 +91,10 @@
 }
 
 /* General and specific component overrides due to Firefox bleed through */
+.sportsbook-scout {
+  font-size: 1em !important;
+  margin-top: 5px;
+}
 .sportsbook-scout .ft-dashboard .ft-tournament-selector,
 .sportsbook-scout input[type="search"],
 .sportsbook-scout .ft-tournament-selector ft-game-card,
@@ -153,7 +157,8 @@ ft-modal .modal-overlay {
 }
 
 /* Country flags overrides due to Firefox bleed through */
-.sportsbook-scout .id, .sportsbook-scout .gw {
+.sportsbook-scout .id,
+.sportsbook-scout .gw {
   background: unset;
   background-size: unset;
   width: auto;
