@@ -110,6 +110,9 @@ ft-modal div.box,
 ft-modal .box {
   background: unset;
 }
+ft-modal ft-player-match .points ft-bubble {
+  box-sizing: unset;
+}
 .sportsbook-scout header,
 ft-modal header {
   background: unset !important;
