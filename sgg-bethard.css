@@ -67,7 +67,8 @@
   --tournaments-categories-bubble-text-active: var(--accent-text);
   --tournaments-categories-bubble-text-hover: var(--accent-text);
   --tournaments-categories-bubble-color-active: var(--accent-color);
-  --tournaments-categories-tab-justify-device: flex-end;
+  --tournaments-categories-tab-justify-tablet: flex-end;
+  --tournaments-categories-tab-justify-mobile: flex-start;
   --field-section-title-color: var(--primary-text);
   --dashboard-tournament-selector-height: 20em;
   --field-player-line-height: 1em;
