@@ -27,7 +27,7 @@
   --tournaments-categories-title-color-active: var(--accent-color);
   --tournaments-categories-title-color-hover: var(--accent-color);
   --tournaments-categories-background-color: var(--primary-color);
-  --tournaments-categories-font-size: 1.2em;
+  --tournaments-categories-font-size: 1em;
   --tournament-info-label-color: var(--secondary-text-hue);
   --tournament-info-value-color: var(--secondary-text);
   --player-stat-tiles-label-font-size: .8em;
@@ -89,6 +89,7 @@
   .sportsbook-scout {
     margin-top: 70px;
     --dashboard-tournament-selector-height: 22em;
+    --tournaments-categories-font-size: .9em;
   }
 }
 
