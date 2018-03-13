@@ -77,21 +77,6 @@
   --seasons-pane-active-bubble-color: var(--accent-color);
   --seasons-pane-active-bubble-text: var(--accent-text);
 }
-@media screen and (max-width: 992px) {
-  .sportsbook-scout {
-    margin-top: 70px;
-  }
-  ft-modal {
-    --window-top-reserved: 9em;
-  }
-}
-@media screen and (max-width: 420px) {
-  .sportsbook-scout {
-    margin-top: 70px;
-    --dashboard-tournament-selector-height: 22em;
-    --tournaments-categories-font-size: .9em;
-  }
-}
 
 /* General and specific component overrides due to Firefox bleed through */
 .sportsbook-scout {
@@ -169,4 +154,20 @@ ft-modal .modal-overlay {
   background-size: unset;
   width: auto;
   height: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .sportsbook-scout {
+    margin-top: 70px;
+  }
+  ft-modal {
+    --window-top-reserved: 9em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sportsbook-scout {
+    margin-top: 70px;
+    --dashboard-tournament-selector-height: 22em;
+    --tournaments-categories-font-size: .9em;
+  }
 }
