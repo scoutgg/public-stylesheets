@@ -62,6 +62,52 @@
   --player-profile-price-changes-accordion-width: 160px;
 }
 
+ft-create-tournament {
+  --create-tournament-sport-selector-color: var(--primary-color);
+  --create-tournament-sport-selector-name-color: var(--primary-text);
+  --create-tournament-sport-selector-bg: var(--primary-color);
+  --create-tournament-sport-selector-icon-color: var(--primary-text);
+  --create-tournament-sport-selector-icon-color-mobile: var(--accent-text);
+  --create-tournament-sport-selector-active-sport-name-color: var(--accent-color);
+  --create-tournament-title-color: var(--primary-text);
+  --create-tournament-form-bg: var(--primary-color);
+  --create-tournament-form-color: var(--primary-text);
+  --create-tournament-form-row-bg: var(--primary-color);
+  --create-tournament-form-row-color: var(--primary-text);
+  --create-tournament-label-color: var(--primary-text-hue);
+  --create-tournament-hint-color: var(--primary-text-disabled);
+  --create-tournament-chip-bg: var(--primary-color-hue);
+  --create-tournament-chip-color: var(--primary-text);
+  --create-tournament-toggle-bg: var(--primary-color-hue);
+  --create-tournament-toggle-color: var(--primary-text);
+  --create-tournament-game-type-fill: var(--primary-color-hue);
+  --create-tournament-game-type-color: var(--primary-color-hue);
+  --create-tournament-explanation-color: var(--primary-text);
+
+  --create-tournament-seasons-row-bg: var(--secondary-color-hue);
+  --create-tournament-seasons-row-color: var(--secondary-text);
+  --create-tournament-seasons-row-margin: 0;
+  --seasons-item-bg-color: var(--secondary-color);
+  --seasons-item-color: var(--secondary-text);
+  --edit-fixtures-gameweek-header-color: var(--secondary-text);
+  --edit-fixtures-gameweek-header-bg: var(--secondary-color-subtle);
+  --edit-fixtures-chip-bg: var(--secondary-color-hue);
+  --edit-fixtures-chip-color: var(--secondary-text);
+  --edit-fixtures-header-bg: var(--secondary-color);
+  --edit-fixtures-header-color: var(--secondary-text);
+
+  --create-tournament-tab-color: var(--secondary-text);
+  --create-tournament-tab-bg: var(--secondary-color-hue);
+  --create-tournament-customized-bg: var(--primary-color-hue);
+
+  --create-tournament-settings-bg: var(--secondary-color-hue);
+  --create-tournament-settings-color: var(--secondary-text);
+  --create-tournament-settings-label-color: var(--secondary-text);
+  --create-tournament-settings-hint-color: var(--secondary-text);
+
+  --seasons-border-bottom: none;
+}
+
 ft-tournaments {
   background-color: var(--secondary-color-hue);
 }
