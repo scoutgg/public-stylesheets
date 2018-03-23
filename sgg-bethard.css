@@ -34,12 +34,16 @@
   --field-text-color: var(--primary-text);
   --field-section-title-color: var(--primary-text);
 
+  --seasons-item-bg-color: var(--primary-color);
+  --seasons-item-color: var(--primary-text);
+
   --football-background: url(https://bet-hard.fantasy.solutions/assets/football_field/field-tilted-smaller.png);
   --football-background-mobile: url(https://bet-hard.fantasy.solutions/assets/football_field/field-tilted-mobile.png);
   --hockey-background: url(https://bet-hard.fantasy.solutions/assets/hockey_field/fts-hockey_field_bg_tilted.png);
   --hockey-background-mobile: url(https://bet-hard.fantasy.solutions/assets/hockey_field/fts-hockey_field_bg_tilted.png);
   --basket-background: url(https://bet-hard.fantasy.solutions/assets/basket_field/fts-basket_field_bg_tilted.png);
   --golf-background: url(https://bet-hard.fantasy.solutions/assets/golf_field/fts-golf_field.png);
+  --seasons-item-border-radius: 0;
   --seasons-pane-bubble-size: .8em;
   --sport-selector-bubble-size: .8em;
   --tournaments-categories-font-size: 1em;
