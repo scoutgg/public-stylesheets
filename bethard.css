@@ -1,0 +1,208 @@
+.sportsbook-scout {
+  --primary-color: #212121;
+  --primary-color-hue: #414141;
+  --primary-color-subtle: #7b7b7b;
+  --primary-text: #fff;
+  --primary-text-hue: rgba(255, 255, 255, 0.7);
+  --primary-text-disabled: rgba(255, 255, 255, 0.5);
+  --accent-color: #f7d245;
+  --accent-color-hue: #F2DC6F;
+  --accent-color-tinted: #F2E8A4;
+  --accent-text: #000000;
+  --secondary-color: #ffffff;
+  --secondary-color-hue: #e7eaf0;
+  --secondary-color-subtle: #cbd4df;
+  --secondary-text: #000;
+  --secondary-text-hue: rgba(0, 0, 0, 0.7);
+  --secondary-text-disabled: rgba(0, 0, 0, 0.5);
+
+  --tournaments-categories-title-color: var(--primary-text);
+  --tournaments-categories-title-color-active: var(--accent-color);
+  --tournaments-categories-title-color-hover: var(--accent-color);
+  --tournaments-categories-background-color: var(--primary-color);
+  --tournaments-categories-blurb-color: var(--primary-text-hue);
+  --tournaments-categories-bubble-text-active: var(--accent-text);
+  --tournaments-categories-bubble-color-active: var(--accent-color);
+  --tournaments-categories-bubble-text-hover: var(--accent-text);
+  --tournaments-categories-bubble-text: var(--primary-text);
+  --tournaments-categories-bubble-color: var(--primary-color-subtle);
+  --tournament-list-season-name-color: var(--secondary-text-hue);
+  --tournament-list-prize-color: var(--secondary-text-hue);
+  --tournament-info-preview-tab-color: var(--secondary-text-hue);
+  --sport-selector-icon-color: var(--primary-text);
+  --tournaments-categories-tab-border-right: 1px solid var(--primary-color-hue);
+  --field-text-color: var(--primary-text);
+  --field-section-title-color: var(--primary-text);
+
+  --seasons-item-bg-color: var(--primary-color);
+  --seasons-item-color: var(--primary-text);
+
+  --football-background: url(https://bet-hard.fantasy.solutions/assets/football_field/field-tilted-smaller.png);
+  --football-background-mobile: url(https://bet-hard.fantasy.solutions/assets/football_field/field-tilted-mobile.png);
+  --hockey-background: url(https://bet-hard.fantasy.solutions/assets/hockey_field/fts-hockey_field_bg_tilted.png);
+  --hockey-background-mobile: url(https://bet-hard.fantasy.solutions/assets/hockey_field/fts-hockey_field_bg_tilted.png);
+  --basket-background: url(https://bet-hard.fantasy.solutions/assets/basket_field/fts-basket_field_bg_tilted.png);
+  --golf-background: url(https://bet-hard.fantasy.solutions/assets/golf_field/fts-golf_field.png);
+  --seasons-item-border-radius: 0;
+  --seasons-pane-bubble-size: .8em;
+  --sport-selector-bubble-size: .8em;
+  --tournaments-categories-font-size: 1em;
+  --player-stat-tiles-label-font-size: .8em;
+  --sport-selector-icon-width: 1.8em;
+  --sport-selector-icon-height: 1.8em;
+  --tournaments-posters-display: none;
+  --sport-selector-icon-width-mobile: 1.8em;
+  --sport-selector-icon-height-mobile: 1.8em;
+  --modal-overlay-padding-desktop: 8em 3em 1em;
+  --window-top-reserved: 9em;
+  --tournaments-categories-tab-justify-tablet: flex-start;
+  --tournaments-categories-tab-justify-mobile: flex-end;
+  --dashboard-tournament-selector-height: 20em;
+  --field-player-line-height: 1em;
+  --player-profile-price-changes-accordion-width: 160px;
+}
+
+ft-create-tournament {
+  --create-tournament-sport-selector-color: var(--primary-color);
+  --create-tournament-sport-selector-name-color: var(--primary-text);
+  --create-tournament-sport-selector-bg: var(--primary-color);
+  --create-tournament-sport-selector-icon-color: var(--primary-text);
+  --create-tournament-sport-selector-icon-color-mobile: var(--accent-text);
+  --create-tournament-sport-selector-active-sport-name-color: var(--accent-color);
+  --create-tournament-title-color: var(--primary-text);
+  --create-tournament-form-bg: var(--primary-color);
+  --create-tournament-form-color: var(--primary-text);
+  --create-tournament-form-row-bg: var(--primary-color);
+  --create-tournament-form-row-color: var(--primary-text);
+  --create-tournament-label-color: var(--primary-text-hue);
+  --create-tournament-hint-color: var(--primary-text-disabled);
+  --create-tournament-chip-bg: var(--primary-color-hue);
+  --create-tournament-chip-color: var(--primary-text);
+  --create-tournament-toggle-bg: var(--primary-color-hue);
+  --create-tournament-toggle-color: var(--primary-text);
+  --create-tournament-game-type-fill: var(--primary-color-hue);
+  --create-tournament-game-type-color: var(--primary-color-hue);
+  --create-tournament-explanation-color: var(--primary-text);
+
+  --create-tournament-seasons-row-bg: var(--secondary-color-hue);
+  --create-tournament-seasons-row-color: var(--secondary-text);
+  --create-tournament-seasons-row-margin: 0;
+  --seasons-item-bg-color: var(--secondary-color);
+  --seasons-item-color: var(--secondary-text);
+  --edit-fixtures-gameweek-header-color: var(--secondary-text);
+  --edit-fixtures-gameweek-header-bg: var(--secondary-color-subtle);
+  --edit-fixtures-chip-bg: var(--secondary-color-hue);
+  --edit-fixtures-chip-color: var(--secondary-text);
+  --edit-fixtures-header-bg: var(--secondary-color);
+  --edit-fixtures-header-color: var(--secondary-text);
+
+  --create-tournament-tab-color: var(--secondary-text);
+  --create-tournament-tab-bg: var(--secondary-color-hue);
+  --create-tournament-customized-bg: var(--primary-color-hue);
+
+  --create-tournament-settings-bg: var(--secondary-color-hue);
+  --create-tournament-settings-color: var(--secondary-text);
+  --create-tournament-settings-label-color: var(--secondary-text);
+  --create-tournament-settings-hint-color: var(--secondary-text);
+
+  --seasons-border-bottom: none;
+}
+
+ft-tournaments {
+  background-color: var(--secondary-color-hue);
+}
+
+/* General and specific component overrides due to Firefox bleed through */
+.sportsbook-scout {
+  font-size: 1em !important;
+  margin-top: 5px;
+  color: var(--secondary-text);
+}
+.sportsbook-scout .ft-dashboard .ft-tournament-selector,
+.sportsbook-scout input[type="search"],
+.sportsbook-scout .ft-tournament-selector ft-game-card,
+.sportsbook-scout .ft-tournament-selector ft-game-card *,
+.sportsbook-scout ft-calendar input.ft-calendar,
+.sportsbook-scout ft-team-manager .team-manager,
+.sportsbook-scout ft-team-manager .team-manager * {
+  box-sizing: border-box;
+}
+.sportsbook-scout div.box,
+.sportsbook-scout .box,
+ft-modal div.box,
+ft-modal .box {
+  background: unset;
+}
+ft-modal ft-player-match .points ft-bubble {
+  box-sizing: unset;
+}
+.sportsbook-scout header,
+ft-modal header {
+  background: unset !important;
+  width: auto;
+  height: auto;
+  top: unset;
+  left: unset;
+  z-index: unset;
+  position: unset;
+}
+.sportsbook-scout .challenges.ft-tournaments {
+  display: flex !important;
+}
+.sportsbook-scout .row,
+ft-modal .row,
+ft-modal .ft-player-profile .row {
+  margin-left: unset;
+  margin-right: unset;
+}
+.sportsbook-scout .row:after,
+.sportsbook-scout .row:before,
+ft-modal .row:after,
+ft-modal .row:before,
+ft-modal .ft-player-profile .row:after,
+ft-modal .ft-player-profile .row:before {
+  content: unset;
+}
+.sportsbook-scout .overview,
+ft-modal .overview {
+  display: unset !important;
+}
+ft-modal {
+  --modal-overlay-padding-desktop: 7.5em 1em 1em;
+  --window-top-reserved: 9em;
+}
+ft-modal .modal-overlay {
+  position: unset;
+  top: unset;
+  right: unset;
+  left: unset;
+  bottom: unset;
+  background: unset;
+  padding: unset;
+  z-index: unset;
+}
+
+/* Country flags overrides due to Firefox bleed through */
+.sportsbook-scout .id,
+.sportsbook-scout .gw {
+  background: unset;
+  background-size: unset;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .sportsbook-scout {
+    margin-top: 70px;
+  }
+  ft-modal {
+    --window-top-reserved: 9em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sportsbook-scout {
+    margin-top: 70px;
+    --dashboard-tournament-selector-height: 22em;
+    --tournaments-categories-font-size: .9em;
+  }
+}
