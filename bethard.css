@@ -16,6 +16,7 @@ html {
   --secondary-text-hue: rgba(0, 0, 0, 0.7);
   --secondary-text-disabled: rgba(0, 0, 0, 0.5);
 
+  --tournament-list-chips-min-width: 240px;
   --tournaments-categories-title-color: var(--primary-text);
   --tournaments-categories-title-color-active: var(--accent-color);
   --tournaments-categories-title-color-hover: var(--accent-color);
