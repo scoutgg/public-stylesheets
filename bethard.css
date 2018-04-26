@@ -34,6 +34,7 @@ html {
   --tournaments-categories-tab-border-right: 1px solid var(--primary-color-hue);
   --field-text-color: var(--primary-text);
   --field-section-title-color: var(--primary-text);
+  --score-summary-rank-text: var(--primary-text);
 
   --seasons-item-bg-color: var(--primary-color);
   --seasons-item-color: var(--primary-text);
