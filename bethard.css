@@ -52,7 +52,7 @@ html {
   --player-stat-tiles-label-font-size: .8em;
   --sport-selector-icon-width: 1.8em;
   --sport-selector-icon-height: 1.8em;
-  --tournaments-posters-display: none;
+  --tournaments-posters-display: flex;
   --sport-selector-icon-width-mobile: 1.8em;
   --sport-selector-icon-height-mobile: 1.8em;
   --modal-overlay-padding-desktop: 8em 3em 1em;
