@@ -38,11 +38,12 @@ html {
 
   --seasons-item-bg-color: var(--primary-color);
   --seasons-item-color: var(--primary-text);
+  --posters-background: var(--primary-color);
 
   --football-background: url('https://s3.eu-central-1.amazonaws.com/fantasy-production/fields/football/v1/field.png');
   --football-background-mobile: url('https://s3.eu-central-1.amazonaws.com/fantasy-production/fields/football/v1/field-mobile.png');
   --hockey-background: url('https://s3.eu-central-1.amazonaws.com/fantasy-production/fields/hockey/v1/field.png');
-  --hockey-background-mobile: url('https://s3.eu-central-1.amazonaws.com/fantasy-production/fields/hockey/v1/field-mobile.png'); 
+  --hockey-background-mobile: url('https://s3.eu-central-1.amazonaws.com/fantasy-production/fields/hockey/v1/field-mobile.png');
   --basket-background: url('https://s3.eu-central-1.amazonaws.com/fantasy-production/fields/basket/v1/field.png');
   --golf-background: url('https://bet-hard.fantasy.solutions/assets/golf_field/fts-golf_field.png');
   --seasons-item-border-radius: 0;
