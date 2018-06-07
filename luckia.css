@@ -1,4 +1,6 @@
 html {
   --accent-color: #D73B09;
   --accent-color-hue: #F8440A;
+  --football-background: url('https://s3.eu-central-1.amazonaws.com/fantasy-production/fields/football/v1/field.png');
+  --football-background-mobile: url('https://s3.eu-central-1.amazonaws.com/fantasy-production/fields/football/v1/field-mobile.png');
 }
